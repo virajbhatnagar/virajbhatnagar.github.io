@@ -1,0 +1,25 @@
+baseURL = "https://virajbhatnagar.me"
+languageCode = "en-us"
+title = "Viraj Bhatnagar"
+paginate = 20
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
+[params]
+subtitle = "Senior Software Engineer"
+
+[taxonomies]
+   tag = "tags"
+
+[menu]
+   [[menu.header]]
+      identifier = "about-me"
+      name = "About Me"
+      url = "/"
+      weight = 1
+
+   [[menu.header]]
+      identifier = "essays"
+      name = "Essays"
+      url = "/essays"
+      weight = 2
