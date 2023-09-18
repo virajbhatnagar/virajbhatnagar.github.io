@@ -83,7 +83,6 @@ a {
     }
         .content a:hover {
             text-decoration-color: #656565;
-            transition: all .4s ease-out;
         }
 
 html,button,input,select,textarea {
