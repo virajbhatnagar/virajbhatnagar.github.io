@@ -15,8 +15,6 @@
 	<div class="posts">
 		{{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
 		{{ range $paginator.Pages }}
-			{{ $u := urls.Parse .Params.link }}
-
 			<div class="post">
         <div class="date">
             <span class="day">{{ .Date | dateFormat "02" }}</span>
@@ -24,9 +22,7 @@
         </div>
         <div class="body">
             <h4 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-            {{ if .Params.link }}
-                <span class="domain">{{ replace $u.Host "www." "" }}</span>
-            {{ end }}
+					<br/>
 					<div class="description">
 						{{ if isset .Params "description" }}
 							{{ .Description }}
