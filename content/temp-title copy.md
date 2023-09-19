@@ -8,6 +8,13 @@ description: dummy description jasd kasdhfk aKSDHj aSKcdnlA ZHDxkk ZKDXch laSNZD
 ---
 
 Sherlock Holmes & John Watson 2
+The following is an example of a homepage template that uses partial, base templates, and a content file at content/_index.md to populate the {{ .Title }} and {{ .Content }} page variables.
+
+The homepage of a website is often formatted differently than the other pages. For this reason, Hugo makes it easy for you to define your new site’s homepage as a unique template.
+Homepage is a Page and therefore has all the page variables and site variables available for use.
+
+The homepage template is the only required template for building a site and therefore useful when bootstrapping a new site and template. It is also the only required template if you are developing a single-page website.
+
 https://www.github.com/zerodha/nithinkamath.me/blob/develop/layouts/_default/list.html
 
 ```java
