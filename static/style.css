@@ -263,10 +263,10 @@ ul.flat li {
         margin: 5px 0 0 0;
     }
     .header .photo {
-        border-radius: 100%;
-        max-width: 100px;
+        border-radius: 70%;
+        max-width: 75px;
         float: left;
-        margin: -12px 10px 0 0;
+        margin: -7px 15px 0 0;
     }
     .header nav {
         text-align: right;
