@@ -6,7 +6,7 @@ pygmentsUseClasses = true
 pygmentsCodefences = true
 
 [params]
-subtitle = "Senior Software Engineer"
+subtitle = "Viraj Bhatnagar's Tech Blog"
 
 [taxonomies]
    tag = "tags"
