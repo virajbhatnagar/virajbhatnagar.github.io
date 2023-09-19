@@ -6,7 +6,7 @@ pygmentsUseClasses = true
 pygmentsCodefences = true
 
 [params]
-subtitle = "Viraj Bhatnagar's Tech Blog"
+subtitle = "bytes of wisdom"
 
 [taxonomies]
    tag = "tags"
