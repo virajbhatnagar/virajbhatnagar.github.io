@@ -1,6 +1,6 @@
 baseURL = "https://virajbhatnagar.me"
 languageCode = "en-us"
-title = "EVERYDAY CS"
+title = "Everyday CS"
 paginate = 20
 pygmentsUseClasses = true
 pygmentsCodefences = true
