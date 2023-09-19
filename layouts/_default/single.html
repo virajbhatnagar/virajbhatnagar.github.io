@@ -4,7 +4,6 @@
 				<h3 class="title">{{ .Title }}</h3>
 				<div class="date">{{ .Date | dateFormat "02 Jan 2006" }}</div>
 				<div class="tags">
-					{{ if ne .Type "page" }}
 						{{ if gt .Params.tags 0 }}
 							<ul class="flat">
 								{{ range .Params.tags }}
@@ -12,10 +11,11 @@
 								{{ end }}
 							</ul>
 						{{ end }}
-					{{ end }}
 				</div>
 			</div>
-					
+			
+			
+			
 			<div class="body">
 				{{ .Content }}
 			</div>

@@ -11,6 +11,7 @@
 		<p>{{ .Description }}</p>
 	{{ end }}
 
+	
 	<div class="posts">
 		{{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
 		{{ range $paginator.Pages }}
