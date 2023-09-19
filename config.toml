@@ -19,7 +19,7 @@ subtitle = "Viraj Bhatnagar's Tech Blog"
       weight = 1
 
    [[menu.header]]
-      identifier = "essays"
-      name = "Essays"
-      url = "/essays"
+      identifier = "journals"
+      name = "Journals"
+      url = "/journals"
       weight = 2
